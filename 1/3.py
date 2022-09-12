@@ -4,11 +4,11 @@
 x = int(input('Введите значение x не равное 0:'))
 y = int(input('Введите значение y не равное 0:'))
 
-if x > 0 and y > 0:
+if (x > 0) and (y > 0):
     print('Точка находится в I четверти')
-elif x > 0 and y < 0:
+elif (x > 0) and (y < 0):
     print('Точка находится в IV четверти')
-elif x < 0 and y > 0:
+elif (x < 0) and (y > 0):
     print('Точка находится во II четверти')
-elif x < 0 and y < 0:
+elif (x < 0) and (y < 0):
     print('Точка находится в III четверти')
